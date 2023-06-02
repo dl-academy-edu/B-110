@@ -4,47 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <img src="./img/logo.png" alt="" class="header__logo">
         <ul class="header__list">
-            <li class="header__list-item"><a href="#" class="header__list-link">Catalog</a></li>
-            <li class="header__list-item"><a href="#" class="header__list-link">Servises</a></li>
-            <li class="header__list-item"><a href="#" class="header__list-link">Blog</a></li>
-            <li class="header__list-item"><a href="#" class="header__list-link">About us</a></li>
+            <li class="header__list-item undotted"><a href="#" class="header__list-link">Catalog</a></li>
+            <li class="header__list-item undotted"><a href="#" class="header__list-link">Servises</a></li>
+            <li class="header__list-item undotted"><a href="#" class="header__list-link">Blog</a></li>
+            <li class="header__list-item undotted"><a href="#" class="header__list-link">About us</a></li>
         </ul>
         <ul class="header__list">
-            <li class="header__list-item"><a class="header__list-link" href="#">719-431-9698</a></li>
-            <li class="header__list-item"><a class="header__list-link header__list-link_contact" href="#">Contact Us</a></li>
+            <li class="header__list-item undotted"><a class="header__list-link header__list-link_phone" href="#">719-431-9698</a></li>
+            <li class="header__list-item undotted"><a class="header__list-link header__list-link_contact" href="#">Contact Us</a></li>
         </ul>
     </header>
     <main>
         <section class="banner">
-            <h1 class="banner__title">The world’s leading
-                cleaning company</h1>
+            <div class="container">
+                <h1 class="banner__title">The world’s leading
+                    cleaning company</h1>
                 <button type="button" class="banner__btn">Get a Free Estimate</button>
+            </div>
         </section>
-        <section class="services">
+        <section class="services container">
             <h2 class="services__title">OUR MOST POPULAR SERVICES</h2>
             <ul class="services__list">
-                <li class="services__list-item">
+                <li class="services__list-item undotted">
                     <img src="./img/serveses.jpg" alt="" class="services__list-img">
                     <h3 class="services__list-title">Carpet
                         Cleaning</h3>
                     <p class="services__list-desc">When you choose Chem-Dry, you get deeper clean, faster-drying carpet and healthier home for you.</p>
                     <a href="#" class="services__list-link">Learn more</a>
                 </li>
-                <li class="services__list-item">
+                <li class="services__list-item undotted">
                     <img src="./img/serveses.jpg" alt="" class="services__list-img">
                     <h3 class="services__list-title">Tile & Grout Cleaning</h3>
                     <p class="services__list-desc">One of the nicest touches to the basic architectural components of a homeis ceramic or stone tile
                         in kitchens, bathrooms</p>
                     <a href="#" class="services__list-link">Learn more</a>
                 </li>
-                <li class="services__list-item">
+                <li class="services__list-item undotted">
                     <img src="./img/serveses.jpg" alt="" class="services__list-img">
                     <h3 class="services__list-title">Pet Stain
                         Removal</h3>
@@ -52,7 +59,7 @@
                         we love our pets. They brighten up our day and they’re always there to support us, through thick</p>
                     <a href="#" class="services__list-link">Learn more</a>
                 </li>
-                <li class="services__list-item">
+                <li class="services__list-item undotted">
                     <img src="./img/serveses.jpg" alt="" class="services__list-img">
                     <h3 class="services__list-title">Commercial Cleaning</h3>
                     <p class="services__list-desc">Companies spend millions of dollars on carpeting, upholstery, leather and area rugs</p>
@@ -60,65 +67,60 @@
                 </li>
             </ul>
         </section>
-        <section class="mission">
+        <section class="mission container">
             <ul class="mission__list">
-                <li class="mission__list-item"><h2>Why Haley’s
+                <li class="mission__list-item mission__list-item_title undotted"><h2>Why Haley’s
                     Chem-Dry?</h2></li>
-                <li class="mission__list-item">Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</li>
-                <li class="mission__list-item"><a href="#" class="mission__list-link">Learn more</a></li>
+                <li class="mission__list-item mission__list-item_desc undotted">Chem-Dry’s mission is helping people live healthy lives, which starts with clean carpets and a healthy home. Our proprietary hot carbonating extraction cleaning process penetrates deep into the fibers, removing an average of 98% of common household allergens from carpets, upholstery and rugs and 89% of the airborne bacteria in your home when a sanitizer is added.* Plus, our green-certified solution, The Natural®, contains no soaps or detergents so it’s safe and non-toxic for your family and pets.</li>
+                <li class="mission__list-item undotted"><a href="#" class="mission__list-link">Learn more</a></li>
             </ul>
             <img src="./img/mission.jpg" alt="" class="mission__img">
         </section>
-        <div class="test">
-            <section>
-
-            </section>
-            <section>
-                
-            </section>
-        </div>
-        <section class="awards">
-            <h2 class="invisability">awards</h2>
+        <section class="awards container">
+            <h2 class="hidden">awards</h2>
             <ul class="awards__list">
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
-                <li class="awards__list-item"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
+                <li class="awards__list-item undotted"><img src="./img/issa.png" alt="" class="awards__list-img"></li>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__contact">
-            <p class="footer__contact-title">Chem-Dry</p>
-            <p class="footer__contact-desc">9420 Cedar CT, Thornton, CO 80229</p>
-            <a href="#" class="footer__contact-phone">(720) 605-9399 </a>
-            <a href="#" class="footer__contact-link">Learn more</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1185.6455768960025!2d49.39525097109476!3d53.534715409414254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1685722574303!5m2!1sru!2sru" width="100%" height="426" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container">
+            <div class="footer__contact">
+                <p class="footer__contact-title">Chem-Dry</p>
+                <p class="footer__contact-desc">9420 Cedar CT, Thornton, CO 80229</p>
+                <a href="#" class="footer__contact-phone">(720) 605-9399 </a>
+                <a href="#" class="footer__contact-link">Learn more</a>
+            </div>
+            <section class="footer__social">
+                <h2 class="footer__social-title">Subscribe to our social networks</h2>
+                <ul class="footer__social-list">
+                    <li class="footer__social-list-item undotted">
+                        <a href="#"><img src="./img/fb.svg" alt="" class="footer__social-list-link"></a>
+                    </li>
+                    <li class="footer__social-list-item undotted">
+                        <a href="#"><img src="./img/twitter.svg" alt="" class="footer__social-list-link"></a>
+                    </li>
+                    <li class="footer__social-list-item undotted">
+                        <a href="#"><img src="./img/g.svg" alt="" class="footer__social-list-link"></a>
+                    </li>
+                    <li class="footer__social-list-item undotted">
+                        <a href="#"><img src="./img/li.svg" alt="" class="footer__social-list-link"></a>
+                    </li>
+                    <li class="footer__social-list-item undotted">
+                        <a href="#"><img src="./img/yt.svg" alt="" class="footer__social-list-link"></a>
+                    </li>
+                </ul>
+            </section>
         </div>
-        <section class="footer__social">
-            <h2 class="footer__social-title">Subscribe to our social networks</h2>
-            <ul class="footer__social-list">
-                <li class="footer__social-list-item">
-                    <a href="#"><img src="./img/fb.svg" alt="" class="footer__social-list-link"></a>
-                </li>
-                <li class="footer__social-list-item">
-                    <a href="#"><img src="./img/twitter.svg" alt="" class="footer__social-list-link"></a>
-                </li>
-                <li class="footer__social-list-item">
-                    <a href="#"><img src="./img/g.svg" alt="" class="footer__social-list-link"></a>
-                </li>
-                <li class="footer__social-list-item">
-                    <a href="#"><img src="./img/li.svg" alt="" class="footer__social-list-link"></a>
-                </li>
-                <li class="footer__social-list-item">
-                    <a href="#"><img src="./img/yt.svg" alt="" class="footer__social-list-link"></a>
-                </li>
-            </ul>
-        </section>
     </footer>
     <script src="app.js"></script>
 </body>
