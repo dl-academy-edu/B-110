@@ -1,7 +1,84 @@
-* {
-    background: #ffc0cb;
-}
-
 .banner {
     background: linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
+}
+
+.banner__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 100%;
+    color: #00559D;
+}
+
+.banner__btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    background: #95459A;
+    color: #FFFFFF;
+    padding: 16px 55px;
+}
+
+.services__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #00559D;
+}
+
+.services__list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2C3036;
+}
+
+.services__list-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2C3036;
+}
+
+.services__list-link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 11px 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #008752;
+}
+
+.mission__list-item_title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #005DAB;
+}
+
+.mission__list-item_desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.mission__list-link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 11px 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #008752;
 }
