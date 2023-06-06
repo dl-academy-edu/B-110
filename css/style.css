@@ -8,17 +8,16 @@
     font-size: 90px;
     line-height: 100%;
     color: #00559D;
+    padding-top: 143px;
+    padding-bottom: 50px;
 }
 
 .banner__btn {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: uppercase;
-    background: #95459A;
-    color: #FFFFFF;
-    padding: 16px 55px;
+    margin-bottom: 286px;
+}
+
+.services {
+    margin-bottom: 110px;
 }
 
 .services__title {
@@ -29,6 +28,20 @@
     text-transform: uppercase;
     text-align: center;
     color: #00559D;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.services__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.services__list-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    max-width: 280px;
 }
 
 .services__list-title {
@@ -53,24 +66,39 @@
     line-height: 18px;
     padding: 11px 40px;
     text-transform: uppercase;
+    width: max-content;
     color: #FFFFFF;
     background: #008752;
 }
 
-.mission__list-item_title {
+.mission {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.mission__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin-right: auto;
+}
+
+.mission__list-title {
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 100%;
     color: #005DAB;
+    margin-bottom: 46px;
 }
 
-.mission__list-item_desc {
+.mission__list-desc {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .mission__list-link {
@@ -81,4 +109,17 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background: #008752;
+}
+
+.awards {
+    margin-bottom: 80px;
+}
+
+.awards__list {
+    display: flex;
+    align-items: center;
+}
+
+.awards__list-item {
+    margin-right: 45px;
 }
