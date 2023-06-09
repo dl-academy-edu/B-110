@@ -34,17 +34,33 @@
 
 .services__list {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
 }
 
 .services__list-item {
+    position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     row-gap: 20px;
     max-width: 280px;
 }
 
+.services__list-item:nth-child(3n) {
+    margin-right: 100px;
+}
+
+.services__list-item:nth-child(4n) {
+    margin-left: 100px;
+}
+
 .services__list-title {
+    position: absolute;
+    max-width: 115px;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
