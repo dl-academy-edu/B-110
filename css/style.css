@@ -1,16 +1,83 @@
 .banner {
+    position: relative;
     background: linear-gradient(180deg, #E0E7ED 16.53%, #DAE2E5 102.51%);
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
 
 .banner__title {
     font-style: normal;
     font-weight: 900;
     font-size: 90px;
-    line-height: 100%;
+    line-height: 104%;
+    letter-spacing: -8px;
     color: #00559D;
     padding-top: 143px;
-    padding-bottom: 50px;
+    padding-bottom: 37px;
 }
+
+.banner__img {
+    position: absolute;
+    top: -89px;
+    left: 800px;
+}
+
+.contact__form-radio {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.contact__form-radio--label {
+    padding: 5px;
+    background-color: #00559D;
+}
+
+input[type=range]  {
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    overflow: hidden;
+    height: 7px;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 7px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    background: #ffffff;
+    cursor: pointer;
+    width:24px;
+    height: 25px;
+    border: 8px solid #C29974;
+    -webkit-appearance: none;
+    margin-top: -4px;
+    box-shadow: -200px  0 0 200px  #43e5f7;
+
+  }
+
+  input[type=range]::-moz-range-track {
+      height: 7px;
+      background: rgba(255, 255, 255, 0.5);
+  }
+
+
+ input[type=range]::-moz-range-thumb {
+    background: #ecf0f1;
+    cursor: pointer;
+    height: 7px;
+    border-radius:0px;
+    box-shadow: -200px  0px 0px 200px   #43e5f7;
+    padding: 0px;
+    margin: 0px;
+  }
 
 .banner__btn {
     margin-bottom: 286px;
@@ -42,30 +109,22 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     row-gap: 20px;
     max-width: 280px;
-}
-
-.services__list-item:nth-child(3n) {
-    margin-right: 100px;
-}
-
-.services__list-item:nth-child(4n) {
-    margin-left: 100px;
+    cursor: pointer;
 }
 
 .services__list-title {
-    position: absolute;
     max-width: 115px;
-    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     color: #2C3036;
+}
+
+.services__list-title:hover {
+    text-decoration: underline;
 }
 
 .services__list-desc {
@@ -87,7 +146,19 @@
     background: #008752;
 }
 
+.services__list-test {
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    opacity: 0;
+}
+
+.services__list-item:hover, .services__list-test:hover {
+    opacity: 1;
+}
+
 .mission {
+    position: relative;
     display: flex;
     margin-bottom: 80px;
 }
@@ -138,4 +209,15 @@
 
 .awards__list-item {
     margin-right: 45px;
+}
+
+.mission::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 570px;
+    height: 499px;
+    background-color: #008752;
+    bottom: 0;
+    right: 0;
 }
